@@ -13,7 +13,6 @@ interface Veiculo {
   
       return `${min}m e ${sec}s`;
     }
-  
     function patio() {
       function ler(): Veiculo[] {
         return localStorage.patio ? JSON.parse(localStorage.patio) : [];
